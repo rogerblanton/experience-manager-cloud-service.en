@@ -26,7 +26,7 @@ When you initiate domain verification, Cloud Manager gives you the name and TXT 
 When you are done you can verify the result by running: `dig _aemverification.[yourdomainname] -t txt`.
 The expected result should display the TXT value provided in Cloud Manager UI.
 
-For example, if your domain is `example.com`, then run: `dig TXT _aemverification.example.com -t txt`.
+For example, if your domain is `example.com`, then run: `dig _aemverification.example.com -t txt`.
 
 >[!NOTE]
 >There are also various [DNS lookup tools](https://www.ultratools.com/tools/dnsLookup), Google DoH can be used to lookup TXT record entries and identify if the TXT record is missing or erroneous.
